@@ -1,0 +1,217 @@
+/*
+COLORES:
+https://colorhunt.co/palette/225739
+BLANCO #E7E7DE
+TURQUESA #008891
+CELESTE #00587A
+AZUL #0F3057
+*/
+body {
+  margin: 0;
+  text-align: center;
+  /*color: #40514E;*/
+  /*
+  font-family: 'Playfair Display', serif;
+*/
+  font-family: 'Raleway', sans-serif;
+  /*
+  font-family: 'Yellowtail', cursive;
+  */
+  background-color: #E7E7DE;
+}
+a{
+  color: #00587A;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:hover{
+  color: #E7E7DE;
+}
+h1 {
+  font-size: 3rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Yellowtail', cursive;
+  color: #0F3057;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #00587A;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #0F3057;
+  font-weight: normal;
+  line-height: 2;
+  margin: 0;
+}
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: dotted #CDCDCD 6px;
+  border-bottom: none;
+  width: 10%;
+}
+
+p{
+  line-height: 2;
+}
+
+.primerContenedor {
+  margin: 0;
+  background-color: #008891;
+  position: relative;
+  /*width: 200px;/* ANCHO*/
+  /*height: 200px;/* LARGO*/
+  /*border:solid 10px;*/
+  padding: 100px;
+}
+
+.segundoContenedor {
+  margin: 0;
+  /*background-color: blue;
+  width: 200px;*/
+  /*ANCHO*/
+  /*height: 200px;*/
+  /* LARGO*/
+  /*border: solid 20px;*/
+  /*margin-left: 260px*/
+}
+
+.tercerContenedor {
+  margin: 0;
+  background-color: #008891;
+  padding: 30px 0 10px;
+  /*background-color: red;
+  width: 200px;*/
+  /* ANCHO*/
+  /*height: 200px;*/
+  /* LARGO*/
+  /*border: solid 10px;*/
+  /*margin-left: 500px*/
+}
+
+.nube1 {
+  position: absolute;
+  /*margin: 20px 20px 20px 300px;*/
+  right: 300px;
+  top: 15px;
+}
+
+.nube2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.montaña {
+  margin: 0;
+  width: 50%;
+}
+
+.imgRedonda {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 15px auto 15px auto;
+}
+
+.imgRedondaSkills1 {
+  width: 25%;
+  border-radius: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.imgRedondaSkills2 {
+  width: 25%;
+  border-radius: 150px;
+  float: right;
+  /*margin-left: 30px;*/
+}
+
+.imgRedondaContact{
+  width: 25%;
+  border-radius: 150px;
+  /*margin-left: 30px;*/
+}
+
+.imgMapache {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  /*right: 400px;*/
+  top: 10px;
+  left: 10px;
+  border-radius: 150px;
+}
+
+.skill-row1{
+  width: 50%;
+  margin: 75px 230px 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2{
+  width: 50%;
+  margin: 150px 230px 120px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.copyright{
+  color: #E7E7DE;
+}
+
+.BUTTON_FHQ {
+   background: #00587A;
+   background-image: -webkit-linear-gradient(top, #00587A, #084C68);
+   background-image: -moz-linear-gradient(top, #00587A, #084C68);
+   background-image: -ms-linear-gradient(top, #00587A, #084C68);
+   background-image: -o-linear-gradient(top, #00587A, #084C68);
+   background-image: -webkit-gradient(to bottom, #00587A, #084C68);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 25px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #00587A 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_FHQ:hover {
+   border: solid #008891 0;
+   background: #008891;
+   background-image: -webkit-linear-gradient(top, #008891, #07585E);
+   background-image: -moz-linear-gradient(top, #008891, #07585E);
+   background-image: -ms-linear-gradient(top, #008891, #07585E);
+   background-image: -o-linear-gradient(top, #008891, #07585E);
+   background-image: -webkit-gradient(to bottom, #008891, #07585E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
